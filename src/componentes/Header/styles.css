@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;    
+}
+#header-container{
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start;
+    color: #666;
+    height: 94px;
+    background: #cfeedc;
+    padding-left: 15.5%;
+    padding-right: 15.5%;
+
+}
+#header {
+    padding-top: 30px;
+    padding-left: 165px;
+    min-height: 100%;
+    background: url("./imagens/minerva-perfil.png") 0 0 no-repeat;
+    background-image: url("./imagens/minerva-perfil.png");
+    display: flex;
+    justify-content: space-between;
+    
+}
+#title {
+    
+    text-decoration: none;
+    color:#666;
+    font-size: 18px; 
+
+}
+#menu-container{
+    height: 30px;
+    font-size: 14.2px;
+    width: 100%;
+    margin: 0;
+    background-color:#89C79E;
+    color: #FFFFFF;
+    padding-left: 16.5%;
+    padding-right: 16.4%;
+}
+#menu {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#insc {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    background-color: white;
+    color: #6DA57E;
+    
+}
+h1{
+    padding-top: 20px;
+    
+}
+h4 {
+    cursor: pointer;
+}
+h4:hover{
+    color: #508080;
+}
